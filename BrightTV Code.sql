@@ -20,7 +20,7 @@ SELECT TO_TIMESTAMP(recorddate2, 'YYYY/MM/DD HH24:MI') AS corrected_recorddate,
 FROM BRIGHT.TV.VIEWERSHIP
 GROUP BY ALL;
 
-
+----final query
 SELECT A.CHANNEL2,
        A.DURATION_2,
        -----COUNT(A.USERID) AS number_of_users,
