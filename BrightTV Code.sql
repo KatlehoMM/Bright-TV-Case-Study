@@ -34,11 +34,11 @@ SELECT A.CHANNEL2,
       B.GENDER,
       B.RACE,
       B.PROVINCE,
-----CASE 
-   ---- WHEN duration_2 BETWEEN '00:00:00' AND '04:59:59' THEN '01. 00:00:00-04:59:59: Low'
-   ---- WHEN duration_2 BETWEEN '05:00:00' AND '08:59:59' THEN '02. 05:00:00-08:59:59: Mid'
-----ELSE '03. =>09:00:00: High'
-----END AS time_Spent,
+CASE 
+   WHEN duration_2 BETWEEN '00:00:00' AND '00:14:59' THEN '01. 00:00:00-00:14:59: Low'
+   WHEN duration_2 BETWEEN '00:15:00' AND '00:29:59' THEN '02. 00:15:00-00:29:59: Mid'
+ELSE '03. =>00:30:00: High'
+END AS time_Spent,
 CASE 
     WHEN time_part BETWEEN '06:00:00' AND '11:59:59' THEN '01. 06:00:00-11:59:59: Morning'
     WHEN time_part BETWEEN '12:00:00' AND '17:59:59' THEN '02. 12:00:00-17:59:59: Afternoon'
