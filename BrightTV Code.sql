@@ -2,18 +2,21 @@ SELECT * FROM BRIGHT.TV.VIEWERSHIP;
 
 SELECT * FROM BRIGHT.TV.USER_PROFILE;
 
+-----viewing the highest and lowest time
 SELECT MAX(duration_2)
 FROM BRIGHT.TV.VIEWERSHIP;
 
 SELECT MIN(duration_2)
 FROM BRIGHT.TV.VIEWERSHIP;
 
+-----viewing the highest and lowest age
 SELECT MAX(AGE) 
 FROM BRIGHT.TV.USER_PROFILE;
 
 SELECT MIN(AGE) 
 FROM BRIGHT.TV.USER_PROFILE;
 
+----Changing the format of the timestamp to a date and selecting the date apart
 SELECT TO_TIMESTAMP(recorddate2, 'YYYY/MM/DD HH24:MI') AS corrected_recorddate, 
        TO_TIME(corrected_recorddate) AS time_part
        MAX(time_part)
