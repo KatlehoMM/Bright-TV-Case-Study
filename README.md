@@ -13,5 +13,25 @@ The presentation provide a comprehensive analysis of Bright TV’s viewership pe
 ### Top 3 Performing Provinces(%)
 * Gauteng - 38%
 * Western Cape - 19%
-* Kwa-Zulu Natal - 10% 
+* Kwa-Zulu Natal - 10%
+## Recommendations
+### Content Strategy 
+* Develop more programs that appeal to women.
+* Create family/kids-friendly shows to boost youth viewership.
+* Localize content for top provinces (Gauteng, Western Cape).
+### Marketing & Engagement
+* Target ads and promotions to strong demographics (young adult males).
+* Create campaigns to draw in underrepresented groups (females, kids, minority provinces).
+### Retention Focus
+* Increase viewer time spent (interactive shows, binge-worthy serials, competitions).
+* Leverage prime afternoon slots since they show the highest viewership.
+## Tools Used 
+### Coding Platforms 
+* Snowflake
+### Data Visualisation 
+* Microsoft Excel
+* Google Looker Studio 
+### Presentation & Reporting
+* Miro
+* Microsoft Powerpoint
   
